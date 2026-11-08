@@ -1,0 +1,5 @@
+[debug] Injecting <script> tag. Using callback.
+[log] [repro] wasm host: https://cdn.jsdelivr.net/gh/rydmike/rive_native@0.2.0-dev.4-web-fixes.1/native/wasm/
+[log] [repro] loaded
+[error] rive_native: deferred replay active (web W1 inline)
+[capture] checker pixels left=55696 right=54740 rightSquareDrawn=true oreReplayMessages=0

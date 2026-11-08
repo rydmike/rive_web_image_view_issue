@@ -1,0 +1,13 @@
+[warn] Flutter Web: Skwasm uses multi-threading and web workers for better performance, but your page needs to be cross-origin isolated to support multi-threading. Skwasm will run in single-threaded mode.
+To enable multithreading, serve your app with these HTTP response headers:
+  Cross-Origin-Opener-Policy: same-origin
+  Cross-Origin-Embedder-Policy: require-corp
+See https://web.dev/articles/coop-coep for guidance.
+To silence this warning, set `suppressMultithreadingWarning: true` in your Flutter configuration.
+[log] [repro] wasm host: rive_native default
+[log] [repro] loaded
+[error] rive_native: deferred replay active (web W1 inline)
+[error] rive ore replay: skip make wrapImageView '' id=6 gen=0 (unresolved dep, churn)
+[error] rive ore replay: bind group handle 7 dropped pass draws: bindGroup '' skipped, unresolved dependency
+[error] rive ore replay: bind group handle 7 dropped pass draws: bindGroup '' skipped, unresolved dependency
+[capture] checker pixels left=55696 right=0 rightSquareDrawn=false oreReplayMessages=3

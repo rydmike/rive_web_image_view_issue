@@ -1,0 +1,62 @@
+[
+  {
+    "case": "published-js",
+    "compiler": "dart2js",
+    "rive_native_wasm": [
+      "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/"
+    ],
+    "checker_pixels": {
+      "left": 55696,
+      "right": 0
+    },
+    "right_square_drawn": false,
+    "ore_replay_messages": 3,
+    "page_errors": 0,
+    "complete": true
+  },
+  {
+    "case": "published-wasm",
+    "compiler": "dart2wasm",
+    "rive_native_wasm": [
+      "https://cdn.jsdelivr.net/npm/@rive-app/flutter-native-wasm@48.0.0/"
+    ],
+    "checker_pixels": {
+      "left": 55696,
+      "right": 0
+    },
+    "right_square_drawn": false,
+    "ore_replay_messages": 3,
+    "page_errors": 0,
+    "complete": true
+  },
+  {
+    "case": "fixed-js",
+    "compiler": "dart2js",
+    "rive_native_wasm": [
+      "https://cdn.jsdelivr.net/gh/rydmike/rive_native@0.2.0-dev.4-web-fixes.1/native/wasm/"
+    ],
+    "checker_pixels": {
+      "left": 55696,
+      "right": 54740
+    },
+    "right_square_drawn": true,
+    "ore_replay_messages": 0,
+    "page_errors": 0,
+    "complete": true
+  },
+  {
+    "case": "fixed-wasm",
+    "compiler": "dart2wasm",
+    "rive_native_wasm": [
+      "https://cdn.jsdelivr.net/gh/rydmike/rive_native@0.2.0-dev.4-web-fixes.1/native/wasm/"
+    ],
+    "checker_pixels": {
+      "left": 55696,
+      "right": 54740
+    },
+    "right_square_drawn": true,
+    "ore_replay_messages": 0,
+    "page_errors": 0,
+    "complete": true
+  }
+]
